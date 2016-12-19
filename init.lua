@@ -169,7 +169,7 @@ function Pinyin (ustring, flat, keepNull)
                 end
             end
         else
-            local hasEmptyStr = singleAlpha:find("[%n%s\t]")
+            local hasEmptyStr = singleAlpha:find("[\n%s\t]")
             if hasEmptyStr and #tempAlphas > 0 then
                 table.insert(stringArray, table.concat(tempAlphas))
                 tempAlphas = {}
