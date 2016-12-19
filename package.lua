@@ -5,7 +5,7 @@
 --
 return {
     name = "cyrilis/pinyin",
-    version = "0.0.1",
+    version = "0.0.2",
     homepage = "https://github.com/cyrilis/lua-pinyin",
     description = "Pinyin processer for lua or luvit lang",
     tags = {"luvit", "pinyin", "拼音", "Chinese"},
@@ -16,4 +16,3 @@ return {
         "**.md"
     }
 }
-
